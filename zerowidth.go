@@ -7,7 +7,7 @@ import (
 )
 
 var zeroWidthChars = []rune{
-	'\u200B', // SPACE
+	'\u0020', // SPACE
 	'\u00A0', // NO-BREAK SPACE
 	'\u2002', // EN SPACE
 	'\u2003', // EM SPACE
